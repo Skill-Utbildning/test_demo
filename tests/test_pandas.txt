@@ -1,9 +1,11 @@
 #Dataframe Operations
-# Test your filtering skills
-# Test your aggregation skills
+
 
 #Dataframe columnar data type Test
 #Create a test that asserts that a df with two columns pass the following.
+    df = pd.DataFrame({
+        'column1': [1, 2, 3],
+        'column2': ['A', 'B', 'C']
 #Arrange Create a two column df
 """ assert df.dtypes['column1'] == int
     assert df.dtypes['column2'] == object """
@@ -12,7 +14,7 @@
 #Assert transformed df equals expected
 start with financial_data.csv
 transform by sorting in date order
-
+________________________________________________________________________________
 #Test missing values
 #Test and confirm that the first column in not_complete.csv has more than 0 empties
 #Test and check that the second column is all null
