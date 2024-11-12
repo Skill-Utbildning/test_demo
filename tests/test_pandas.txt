@@ -1,0 +1,27 @@
+#Dataframe Operations
+# Test your filtering skills
+# Test your aggregation skills
+
+#Dataframe columnar data type Test
+#Create a test that asserts that a df with two columns pass the following.
+#Arrange Create a two column df
+""" assert df.dtypes['column1'] == int
+    assert df.dtypes['column2'] == object """
+
+
+#Assert transformed df equals expected
+start with financial_data.csv
+transform by sorting in date order
+
+#Test missing values
+#Test and confirm that the first column in not_complete.csv has more than 0 empties
+#Test and check that the second column is all null
+
+#Test filled values.
+Fill with 0 or "empty"
+Assert correct values
+
+#Merge test
+# Read both files, Merge the semifilled to the other table, fill upp.
+Assert number of columns
+Assert shape
