@@ -1,1 +1,1 @@
-print("newpy")
+print(3*"newpy")
